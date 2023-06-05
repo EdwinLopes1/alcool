@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+	<meta charset='UTF-8'>
+	<title>Transtorno Por Uso de Álcool</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1> Transtorno por uso de álcool</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="sobre.html">Caracterização do transtorno</a></li> 
+				<li><a href="publicacoes.html">Publicações</a></li> 
+				<li><a href="ajuda.html">Onde Encontrar Ajuda</a></li> 
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+	<section class="call-to-action">
+  		<h2>Procurando ajuda?</h2>
+  		<p>Precisa ou conhece alguém que necessite de auxílio para lidar com problemas relacionados ao álcool?</p>
+  		<a href="ajuda.html" class="cta-button">Encontrar ajuda agora</a>
+	</section>
+
+	<div class="depoimentos">
+  		<div class="depoimento">
+			<h2> Você sabe o quê é o transtorno por uso de álcool? </h2>
+    			<p> Há um imenso número de informação que circula sobre o uso de álcool, e muitas dessas informações não são verdadeiras.</p>
+			<p> Por isso, nosso objetivo é conscientizar e trazer informações corretas sobre o transtorno por uso de álcool.</p>
+			<p> Quer saber mais sobre o assunto? </p> <a href="sobre.html" class="cta-button">Clique aqui</a>
+			
+  		</div>
+	</div>
+
+	<div id="infograficos">
+  	<h2>Alguns dados sobre consumo de álcool</h2>
+		<script type="text/javascript">
+			function slide1(){
+				document.getElementById('id').src="alcool1.png";
+				setTimeout("slide2()", 5000)
+			}
+			function slide2(){
+				document.getElementById('id').src="alcool2.png";
+				setTimeout("slide1()", 5000)
+			}
+		</script>
+		<body onLoad="slide1()">
+		<img id="id">
+	</div>
+
+	</main>
+
+	<footer>
+  		<p>
+    			<a href="index.html">Home</a> |
+    			<a href="sobre.html">Caracterização do transtorno</a> |
+		  	<a href="publicacoes.html">Publicações</a> |
+    			<a href="ajuda.html">Onde encontrar ajuda</a>
+  		</p>
+		<p>
+			<a href="https://instagram.com/psicopatoeduk?igshid=MmIzYWVlNDQ5Yg==">Conheça nossa página no instragram</a>
+		</p>
+		<p>Edwin Lopes e Gabriella Carboni &copy; 2023</p>
+		<p> to do: Sobre, Insta, Publica e trab. escrito </p>
+	</footer>
+</body>
+</html>
