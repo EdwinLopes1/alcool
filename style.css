@@ -1,5 +1,5 @@
 nav {
-  background-color: #daaf90;
+  background-color: #DAAF90;
   display: flex;
   justify-content: center;
   font-family: times new roman;
@@ -51,7 +51,7 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: black;
+  background-color: #DAAF90;
   color: white;
   text-align: center;
   font-family: times new roman;
@@ -59,7 +59,7 @@ footer {
 }
 
 body{
-  background-color: #faf0e1;
+  background-color: #FAF0E1;
 }
 
 footer p {
